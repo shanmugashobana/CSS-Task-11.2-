@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+
+    height: 100vh;
+    background-color: #f4f6f8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form {
+    display:flex;
+    flex-wrap:wrap;
+    width:50%;
+    height:500px;
+    background-color: white;
+    border: 2px solid black;
+    align-content:flex-start;
+}
+
+.form h1,
+.form p {
+
+    width:100%;
+    padding: 10px 20px 0;
+    text-align: center;
+}
+
+.left-side {
+    width:40%;
+    height:400px;
+    overflow: hidden;
+
+
+}
+
+.left-side img {
+     width:100%;
+     height:100%;
+         
+     
+}
+.right-side {
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 400px;
+    width:60%;
+    padding:20px;
+    
+}
+
+.buttons {
+     display:flex;
+     gap: 15px;
+     margin-top: 10px;
+}
+
+.submit-btn,
+.cancel-btn {
+   width:120px;
+   padding:10px;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor:pointer;
+}
+
+.submit-btn {
+    background-color: #1e9bf0;
+    color:white;
+    border:none;
+    margin-right: 15px;
+    margin-top: 10px;;
+}
+
+.cancel-btn {
+    background-color: white;
+    color: #1e9bf0;
+    border: 1px solid #1e9bf0;
+    margin-top: 10px;
+}
+
+.input-box {
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #bbb;
+    margin: bottom 15px;
+}
+
+.input-box i {
+  width: 45px;
+  text-align: center;
+  color: #666;
+  
+}
+
+.input-box input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    
+
+}
+
+.star {
+    color:red;
+    margin-right: 8px;
+}
